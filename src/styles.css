@@ -1,0 +1,73 @@
+html {
+  /* not sure why background image seems to grow after entering Search... */
+  background-image: url("homeable-test.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: cover;
+  /*background-image: linear-gradient(to right, #054996, rgb(247, 110, 86)); */
+  padding: 10px;
+}
+
+.App {
+  margin-top: 350px;
+  margin-left: 250px;
+  margin-right: 250px;
+  font-family: "Archivo", sans-serif;
+  color: #000;
+  font-size: 1em;
+  text-align: center;
+  min-height: 200px;
+  height: 125%;
+  max-width: 1000px;
+  background-image: linear-gradient(white, rgba(255, 255, 255, 0.5));
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.cool:hover {
+  background-color: rgba(200, 200, 200, 0.3);
+  transition-duration: 0.3s;
+}
+
+/*
+.App h1 {
+  font-size: 2em;
+}
+
+.App h2 {
+  font-size: 1.5em;
+}
+
+.Resources {
+  position: sticky;
+  left: 0;
+  bottom: 0; /* overlays results information -__- 
+  right: 0;
+}
+*/
+
+h3 {
+  font-size: 2em;
+}
+
+h4 {
+  font-style: italic;
+}
+
+p {
+  font-size: 0.9em;
+  color: rgb(59, 59, 59);
+}
+
+a:link {
+  color: #020137;
+}
+
+a:hover {
+  color: #2ec4b6;
+}
+
+span {
+  font-style: italic;
+  font-size: 0.8em;
+}
